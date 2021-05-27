@@ -52,3 +52,5 @@ git rm xx.txt //删除版本库文件
 	合并某分支到当前分支：git merge <name>
 
 	删除分支：git branch -d <name>
+	
+git log --graph --pretty=oneline --abbrev-commit  //查看分支合并情况
