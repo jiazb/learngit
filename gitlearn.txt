@@ -16,3 +16,7 @@ git reset --hard id  //返回之前的版本, HEAD表示当前版本，HEAD^表�
 git logs //查看修改记录
 
 git reflog //查看之前所有命令
+
+git checkout -- xx.txt //把工作区内容还原和版本库一致
+
+git reset HEAD <file> //把暂存区内容清空
