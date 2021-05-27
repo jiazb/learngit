@@ -17,6 +17,38 @@ git logs //查看修改记录
 
 git reflog //查看之前所有命令
 
-git checkout -- xx.txt //把工作区内容还原和版本库一致
+git checkout -- xx.txt //把版本库文件还原到工作区
 
 git reset HEAD <file> //把暂存区内容清空
+
+git rm xx.txt //删除版本库文件
+
+
+
+ git remote add origin git@github.com:jiazb/learngit.git  //连接远程库
+ git push -u origin master   //推送本地内容到远程库
+ 
+  git push origin master  //推送修改到远程库
+  
+  git remote -v //查看远程信息
+  git remote rm origin //根据名字删除远程库
+  
+  git clone git@github.com:michaelliao/gitskills.git  //克隆远程库到本地
+  
+  git checkout -b dev  //创建并切换分支
+  git branch dev //创建分支
+  git checkout dev //切换分支
+  git merge  //命令用于合并指定分支到当前分支
+  git branch -d dev //删除分支
+  
+	查看分支：git branch
+
+	创建分支：git branch <name>
+
+	切换分支：git checkout <name>或者git switch <name>
+
+	创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+	合并某分支到当前分支：git merge <name>
+
+	删除分支：git branch -d <name>
