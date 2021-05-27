@@ -1,0 +1,18 @@
+git config --golbal user.name "你的名字"    //设置你本地的git名称和邮箱
+git config --golbal user.email "你的邮箱"
+
+git init //新建git仓库
+
+git add xx.txt //向git仓库添加文件
+
+git commit -m "说明" //向git仓库提交添加的内容
+
+git status //查看本地和仓库保存的修改处
+
+git diff xx.txt //查看xx.txt具体修改的地方
+
+git reset --hard id  //返回之前的版本, HEAD表示当前版本，HEAD^表示上一个版本
+
+git logs //查看修改记录
+
+git reflog //查看之前所有命令
